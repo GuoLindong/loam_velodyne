@@ -88,6 +88,12 @@ public:
   /** Multi scan mapper for Velodyne HDL-64E according to data sheet. */
   static inline MultiScanMapper Velodyne_HDL_64E() { return MultiScanMapper(-24.9f, 2, 64); };
 
+  /** Multi scan mapper for Hesai Pandar40 according to data sheet. */
+  static inline MultiScanMapper Hesai_Pandar_40() { return MultiScanMapper(-16, 7, 40); };
+
+  /** Multi scan mapper for Robosense RS-LiDAR-32B according to data sheet. */
+  static inline MultiScanMapper RS_Lidar_32B() { return MultiScanMapper(-25, 15, 32); };
+
 
 private:
   float _lowerBound;      ///< the vertical angle of the first scan ring

@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   tf)
 
-find_package(Eigen3 REQUIRED)
+#find_package(Eigen3 REQUIRED) #by gld@2018.5.14
 find_package(PCL REQUIRED)
 
 include_directories(
